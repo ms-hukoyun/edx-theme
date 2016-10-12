@@ -95,7 +95,7 @@ site_status_msg = get_site_status_msg(course_id)
         </a>
       </li>
       <li class="primary">
-        <button class="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr">${_("More options dropdown")}</span><span class="fa fa-sort-desc" aria-hidden="true"></span></button>
+	<a class="dropdown" aria-expanded="false" aria-haspopup="true" href="#"><span class="sr">${_("More options dropdown")}</span><i class="fa fa-sort-desc" aria-hidden="true"></i></a>
         <ul class="dropdown-menu" aria-label="More Options" role="menu">
           <%block name="navigation_dropdown_menu_links" >
             <li><a href="${reverse('dashboard')}">${_("Dashboard")}</a></li>
